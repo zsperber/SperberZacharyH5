@@ -1,0 +1,7 @@
+public class Bubble
+{
+  private Node3 head = null;
+  private Node3 tail = null;
+  private int size = 0;
+  
+  public Node3 getHead
