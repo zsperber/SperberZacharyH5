@@ -4,4 +4,21 @@ public class Bubble
   private Node3 tail = null;
   private int size = 0;
   
-  public Node3 getHead
+  public Node3 getHead()
+  {
+    return this.head;
+  }
+  public Node3 getTail()
+  {
+    return this.tail;
+  }
+  public void setHead(Node3 newNode)
+  {
+    this.head = newNode;
+    size++;
+  }
+  public int getSize()
+  {
+    return this.size;
+  }
+}

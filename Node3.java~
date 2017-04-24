@@ -1,30 +1,30 @@
 public class Node3{
   // Properties
-  private int rank;
-  private Node2 next;
+  private int size;
+  private Node3 next;
   
   // Constructor
   public Node3() {
-    this.rank = 0;
+    this.size = 0;
     this.next = null;
   }
   
-  public Node2(int rank) {
-    this.rank = rank;
+  public Node3(int rank) {
+    this.size = size;
     this.next = null;
   }
   
   // Getter/Setter Methods
   
-  public int getRank() {
-    return this.rank;
+  public int getSize() {
+    return this.size;
   }
 
-  public Node2 getNext() {
+  public Node3 getNext() {
     return this.next;
   }
   
-  public void setNext(Node2 next) {
+  public void setNext(Node3 next) {
     this.next = next;
   }
   
@@ -32,8 +32,8 @@ public class Node3{
   
   /* Prints data in node */
   public void print() {
-   int rank=this.rank;
-    System.out.print(rank);
+   int size=this.size;
+    System.out.print(size);
   }
   
 }
